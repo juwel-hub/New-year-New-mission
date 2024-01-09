@@ -121,7 +121,7 @@ header {
   font-weight: 700;
   text-transform: uppercase;
   padding: 20px 30px;
-  margin: 18px 126px ;
+  margin: 18px 126px;
 }
 .welcom-btn 
   
@@ -129,18 +129,17 @@ header {
 .full-container {
   max-width: 1320px;
   height: 482px;
-  
+
   text-align: center;
   padding: 100px;
-  
 }
-.time-section{
-text-align: center;
-background-color:rgba(255, 0, 0, 0.10) ;
-margin: 120px auto;
-width: 1320px;
-height: 480px;
-padding-top:100px ;
+.time-section {
+  text-align: center;
+  background-color: rgba(255, 0, 0, 0.1);
+  margin: 120px auto;
+  width: 1320px;
+  height: 480px;
+  padding-top: 100px;
 }
 .extention {
   color: #f00;
@@ -159,18 +158,18 @@ padding-top:100px ;
   line-height: 56px;
   text-transform: capitalize;
 }
-#time-container-btn{
+#time-container-btn {
   border-radius: 8px;
-background: #F00;
-color: #FFF;
-text-align: center;
-font-family: Inter;
-font-size: 20px;
-font-weight: 700;
-text-transform: uppercase;
-padding:20px 32px ;
-margin-top:48px ;
-border: 0;
+  background: #f00;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 20px 32px;
+  margin-top: 48px;
+  border: 0;
 }
 
 /* best offer section  */
@@ -324,27 +323,26 @@ border: 0;
   margin-bottom: 50px;
   width: 895px;
 }
-.box{
+.box {
   width: 424px;
-  box-shadow: 0 0 20px rgb(0,0,0,.1);
+  box-shadow: 0 0 20px rgb(0, 0, 0, 0.1);
   transition: 1s;
   border-radius: 10px;
 }
-.gift-section{
+.gift-section {
   display: flex;
   flex-wrap: wrap;
   max-width: 1320px;
   margin: 0 auto;
   gap: 20px;
 }
-.box img{
-width: 100%;
-transition-duration: 1s;
-
+.box img {
+  width: 100%;
+  transition-duration: 1s;
 }
-.box:hover{
-transform: scale(1.3);
-z-index: z;
+.box:hover {
+  transform: scale(1.3);
+  z-index: z;
 }
 
 /* subscribe section  */
@@ -436,6 +434,17 @@ footer {
 .icon {
   margin-right: 16px;
 }
+.h-row {
+  width: 1320px;
+  height: 1px;
+ color: #FFFFFF26;
+  margin:50px auto ;
+
+}
+hr{
+ background-color: #FFFFFF26;
+ border: 0;
+}
 .footer-icon {
   display: flex;
   align-items: center;
@@ -448,7 +457,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 120px 120px;
+  padding: 0px 140px;
 }
 .copyright {
   color: #fff;
